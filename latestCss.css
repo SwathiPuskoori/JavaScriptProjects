@@ -1,31 +1,16 @@
-/* input{
-  border-radius:20px; !important
-  height: calc(2em + 2px + 0.75rem) !important; 
-} */
+body {
+  color: #333;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 500;
+  line-height: 1.6;
+  letter-spacing: 0.5px;
+  word-wrap: break-word;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
 
-latestApply{
-    border-radius:20px !important;
-    height: calc(2em + 2px + 0.75rem) !important; 
-  }
-  
-  body {
-    color: #333; /* Slightly lighter black for better readability */
-    font-family: 'Montserrat', sans-serif; /* Keeping Montserrat as the primary font */
-    font-weight: 400; /* Normal weight for body text, more readable */
-    line-height: 1.6; /* A bit more space between lines for better readability */
-    letter-spacing: 0.5px; /* Slight letter spacing for legibility */
-    word-wrap: break-word; /* Ensure long words break correctly */
-    margin: 0;
-    padding: 0;
-    background-color: #f5f5f5; /* Light background to reduce eye strain */
-    font-size: 16px; /* Default font size for body text */
-  }  
-  .formio .form-control {
-    border-radius: 10px !important;
-    height: calc(2em + 2px + 0.75rem) !important;
-  } */
-  
-  .latestApply input.form-control {
-    border-radius: 10px !important;
-    height: calc(2em + 2px + 0.75rem) !important;
-  }
+.latestApply input.form-control {
+  border-radius: 10px !important;
+  height: calc(2em + 2px + 0.75rem) !important;
+}
